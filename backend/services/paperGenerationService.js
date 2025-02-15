@@ -1,1 +1,0 @@
-// PaperGenerationService placeholder 

@@ -1,1 +1,0 @@
-// Database configuration placeholder 
