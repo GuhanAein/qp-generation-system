@@ -1,0 +1,77 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 30vmin; /* Reduced size */
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 15s linear; /* Faster rotation */
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(8px + 1.5vmin); /* Reduced font size */
+  color: white;
+}
+
+/* Reduced form width */
+.login-container {
+  max-width: 320px; /* Smaller form */
+  background: white;
+  padding: 16px; /* Less padding */
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-container h2 {
+  font-size: 20px; /* Smaller heading */
+  margin-bottom: 12px;
+}
+
+.login-container input,
+.login-container select {
+  width: 100%;
+  padding: 8px; /* Less padding */
+  margin-bottom: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.login-container button {
+  width: 100%;
+  background: black;
+  color: white;
+  padding: 10px; /* Smaller button */
+  font-size: 14px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.login-container button:hover {
+  background: #444;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
