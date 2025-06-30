@@ -2,13 +2,13 @@ import { initializeApp } from 'firebase/app';
 import { getAuth } from 'firebase/auth';
 
 const firebaseConfig = {
-  apiKey: "AIzaSyB2BGZfJKaVFJ2mBnn5AjawURYebgBbOmU",
-  authDomain: "qp-generation-authentication.firebaseapp.com",
+  apiKey: "xxxxxxxx",
+  authDomain: "xxxxxxxx",
   projectId: "qp-generation-authentication",
-  storageBucket: "qp-generation-authentication.firebasestorage.app",
-  messagingSenderId: "699397300784",
-  appId: "1:699397300784:web:447b68e0d38408f04983f5",
-  measurementId: "G-TX599HG5J1"
+  storageBucket: "xxxxxx.firebasestorage.app",
+  messagingSenderId: "699xxxxxxx",
+  appId: "1:699xxxx:web:447b6xxxx",
+  measurementId: "G-TX5xxxxx"
 };
 
 const app = initializeApp(firebaseConfig);
